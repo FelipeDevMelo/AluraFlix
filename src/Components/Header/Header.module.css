@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 125px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--darkGray);
+}
+
+.logo {
+  width: 168px;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.link a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
