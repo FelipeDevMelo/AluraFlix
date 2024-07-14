@@ -2,6 +2,9 @@
   --darkGray: #262626;
   --blue: #2271d1;
   --white: #ffffff;
+  --frontend: #6bd1ff;
+  --backend: #00c86f;
+  --mobile: #ffba05;
 }
 
 body {

@@ -1,12 +1,15 @@
 import { React } from "react";
 import styles from "./Hero.module.css";
 import banner from "./player.png";
-import TagTitle from "./TitleCategory.png";
+
+import { TituloCategoria } from "Components/TituloCategoria";
 export const Hero = () => {
   return (
     <section className={styles.section}>
       <div className={styles.div1}>
-        <img src={TagTitle} alt="titulo front end" />
+        <TituloCategoria color="frontend">
+          <h1>FRONT END</h1>
+        </TituloCategoria>
         <h1>SEO com React</h1>
         <p>
           Eu to aqui pra nesse vídeo dizer que a gente vai aprender a começar

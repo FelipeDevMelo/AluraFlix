@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem 0.2rem;
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+  color: var(--white);
+}
+
+.blue {
+  background-color: var(--frontend);
+}
+.green {
+  background-color: var(--backend);
+}
+.yellow {
+  background-color: var(--mobile);
+}
