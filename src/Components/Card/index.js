@@ -1,6 +1,6 @@
 import styles from "./Card.module.css";
 import { FaRegTrashAlt, FaEdit } from "react-icons/fa";
-export const Card = (imagem, categoria) => {
+export const Card = ({ id, titulo, categoria, url, descricao, thumb }) => {
   let borderColor = "";
   switch (categoria) {
     case "frontend":
@@ -19,7 +19,7 @@ export const Card = (imagem, categoria) => {
   }
   return (
     <div className={`${styles.container} ${borderColor}`}>
-      <img src={imagem} alt="imagem do video" />
+      <img src={thumb} alt="imagem do video" />
       <div>
         <button>
           <FaRegTrashAlt />

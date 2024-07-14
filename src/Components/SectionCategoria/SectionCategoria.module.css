@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  padding: 2rem;
+}
+
+.container section {
+  gap: 2rem;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.container__Card {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2rem;
+}

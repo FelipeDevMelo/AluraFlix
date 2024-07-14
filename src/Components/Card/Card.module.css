@@ -1,0 +1,25 @@
+.container {
+  width: 432px;
+  width: 325px;
+}
+
+.container img {
+  width: 100%;
+}
+
+.blue {
+  border: 1px solid var(--frontend);
+  box-shadow: 0 0 1px var(--frontend), 0 0 2px var(--frontend),
+    0 0 5px var(--frontend), 0 0 7px var(--frontend);
+}
+
+.green {
+  border: 1px solid var(--backend);
+  box-shadow: 0 0 1px var(--backend), 0 0 2px var(--backend),
+    0 0 5px var(--backend), 0 0 7px var(--backend);
+}
+.yellow {
+  border: 1px solid var(--mobile);
+  box-shadow: 0 0 1px var(--mobile), 0 0 2px var(--mobile),
+    0 0 5px var(--mobile), 0 0 7px var(--mobile);
+}
