@@ -1,0 +1,75 @@
+{"videos":[
+    {
+        "id":1,
+        "titulo":"O que faz uma desenvolvedora front-end?",
+        "categoria":"frontend",
+        "url:":"https://www.youtube.com/embed/watch?v=ZY3-MFxVdEw",
+        "descricao":"",
+        "thumb": "url()"
+    },
+    {
+        "id":2,
+        "titulo":"Árvores binárias",
+        "categoria":"frontend",
+        "url:":"https://www.youtube.com/embed/watch?v=NpJVZtgSY4U&list=PL5TJqBvpXQv7ipm2exZbbqwpFZc-TZ80s&index=1",
+        "descricao":"",
+        "thumb": "url()"
+    },
+    {
+        "id":3,
+        "titulo":"O que é e o que faz quem trabalha com UX? User Experience e Usabilidade",
+        "categoria":"frontend",
+        "url:":"https://www.youtube.com/embed/watch?v=FJhMCi07T4A",
+        "descricao":"",
+        "thumb": "url()"
+    },
+    {
+        "id":4,
+        "titulo":"O que faz uma desenvolvedora Back-end? com Juliana Amoasei",
+        "categoria":"backend",
+        "url:":"https://www.youtube.com/embed/watch?v=fiPfvylj6rk",
+        "descricao":"",
+        "thumb": "url()"
+    },
+    {
+        "id":5,
+        "titulo":"Git e Github para Sobrevivência #01: Como o Git funciona?",
+        "categoria":"backend",
+        "url:":"https://www.youtube.com/embed/watch?v=BAmvmaKQklQ",
+        "descricao":"",
+        "thumb": "url()"
+    },
+    {
+        "id":6,
+        "titulo":"Qual é a melhor linguagem de programação?",
+        "categoria":"backend",
+        "url:":"https://www.youtube.com/embed/watch?v=Uh-GNH-t89w",
+        "descricao":"",
+        "thumb": "url()"
+    },
+    {
+        "id":7,
+        "titulo":"Desenvolvimento Android",
+        "categoria":"mobile",
+        "url:":"https://www.youtube.com/embed/watch?v=fWscDFHKgw8",
+        "descricao":"",
+        "thumb": "url()"
+    },
+    {
+        "id":8,
+        "titulo":"O que é React Native?",
+        "categoria":"mobile",
+        "url:":"https://www.youtube.com/embed/watch?v=O6TnaSkSC48",
+        "descricao":"",
+        "thumb": "url()"
+    },
+    {
+        "id":9,
+        "titulo":"Como começar sua primeira app com o Flutter - Hello World",
+        "categoria":"mobile",
+        "url:":"https://www.youtube.com/embed/watch?v=xSC8j3gl7xM",
+        "descricao":"",
+        "thumb": "url()"
+    }
+
+]}
