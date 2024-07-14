@@ -1,8 +1,10 @@
-import { Header } from "../../Header";
+import { Hero } from "Components/Hero";
 import styles from "./Home.module.css";
 
 export const Home = () => {
-  return <>
-    
-  </>;
+  return (
+    <main className={styles.container}>
+      <Hero />
+    </main>
+  );
 };

@@ -5,11 +5,10 @@ import { Header } from "./Components/Header/index";
 export const AppRoutes = () => {
   return (
     <BrowserRouter>
-      <Header>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </Header>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </BrowserRouter>
   );
 };
