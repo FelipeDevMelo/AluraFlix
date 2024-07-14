@@ -6,17 +6,16 @@
   justify-content: space-around;
   align-items: center;
   background-color: var(--darkGray);
+  border-bottom: 2px solid var(--blue);
+  box-shadow: 0 0 1px var(--blue), 0 0 2px var(--blue), 0 0 5px var(--blue),
+    0 0 7px var(--blue);
 }
 
 .logo {
   width: 168px;
 }
-.link {
+.nav {
   display: flex;
   flex-direction: row;
   gap: 1rem;
-}
-.link a {
-  text-decoration: none;
-  padding: 0.5rem 1rem;
 }
