@@ -8,6 +8,7 @@ export const Card = ({
   descricao,
   thumb,
   onDelete,
+  onEdit,
 }) => {
   let borderColor = "";
   switch (categoria) {
@@ -28,14 +29,18 @@ export const Card = ({
   return (
     <div className={`${styles.container} ${borderColor}`}>
       <img src={thumb} alt="imagem do video" />
-      <div>
+      <div className={styles.btnsDiv}>
         <button onClick={() => onDelete(id)}>
           <FaRegTrashAlt />
-          Deletar
+          DELETAR
         </button>
-        <button>
+        <button
+          onClick={() =>
+            onEdit({ id, titulo, categoria, url, descricao, thumb })
+          }
+        >
           <FaEdit />
-          Editar
+          EDITAR
         </button>
       </div>
     </div>

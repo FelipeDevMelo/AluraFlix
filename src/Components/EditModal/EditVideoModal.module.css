@@ -1,0 +1,40 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: #0b132b; /* Fundo escuro */
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff; /* Cor do texto */
+  font-family: "Arial", sans-serif; /* Fonte */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form div{
+    display: flex;
+    flex-direction: column;
+}
+.form input,
+.form textarea,
+.form select {
+  width: 300px;
+}

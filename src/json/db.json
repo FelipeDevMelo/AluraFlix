@@ -3,9 +3,9 @@
     {
       "id": "1",
       "titulo": "O que faz uma desenvolvedora front-end?",
-      "categoria": "frontend",
-      "url:": "https://www.youtube.com/embed/watch?v=ZY3-MFxVdEw",
-      "descricao": "",
+      "categoria": "backend",
+      "url": "aaaaaa",
+      "descricao": "aaaaaaaa",
       "thumb": "https://i.pinimg.com/736x/e0/fa/5b/e0fa5bf4dc6a86f192e038ce6aba5dec.jpg"
     },
     {
@@ -19,9 +19,9 @@
     {
       "id": "4",
       "titulo": "O que faz uma desenvolvedora Back-end? com Juliana Amoasei",
-      "categoria": "backend",
-      "url:": "https://www.youtube.com/embed/watch?v=fiPfvylj6rk",
-      "descricao": "",
+      "categoria": "mobile",
+      "url": "aaaaaa",
+      "descricao": "aaaaaaaaaaaa",
       "thumb": "https://i.pinimg.com/236x/57/40/52/57405215501d32c028c7202e311ba391.jpg"
     },
     {
@@ -35,9 +35,9 @@
     {
       "id": "6",
       "titulo": "Qual é a melhor linguagem de programação?",
-      "categoria": "backend",
-      "url:": "https://www.youtube.com/embed/watch?v=Uh-GNH-t89w",
-      "descricao": "",
+      "categoria": "frontend",
+      "url": "aaaaaaaa",
+      "descricao": "aaaaaaaaa",
       "thumb": "https://i.pinimg.com/236x/84/42/74/8442742359a967ef82458b850fbbe57f.jpg"
     },
     {
@@ -51,9 +51,9 @@
     {
       "id": "8",
       "titulo": "O que é React Native?",
-      "categoria": "mobile",
-      "url:": "https://www.youtube.com/embed/watch?v=O6TnaSkSC48",
-      "descricao": "",
+      "categoria": "backend",
+      "url": "aaaaaaaaa",
+      "descricao": "aaaaaaaaaaaaaaa",
       "thumb": "https://i.pinimg.com/736x/14/79/49/14794916ffa7e91b00337a3c4d556110.jpg"
     },
     {
@@ -88,6 +88,46 @@
       "url": "https://www.youtube.com/watch?v=L-iepu3EtyE&list=RDDnGdoEa1tPg&index=4",
       "descricao": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
       "thumb": "https://i.pinimg.com/736x/ca/62/49/ca624956badc658d6dd3919f0ca90f3c.jpg"
+    },
+    {
+      "id": "da1f",
+      "titulo": "awdwadwadw",
+      "categoria": "",
+      "url": "wdadawdwad",
+      "descricao": "awdawdawdaw",
+      "thumb": "https://i.pinimg.com/236x/62/46/4b/62464be5090cfac3793f491d0e54f99a.jpg"
+    },
+    {
+      "id": "da39",
+      "titulo": "awdwdawda",
+      "categoria": "frontend",
+      "url": "adawdwadwa",
+      "descricao": "adwadwa",
+      "thumb": "https://i.pinimg.com/236x/62/46/4b/62464be5090cfac3793f491d0e54f99a.jpg"
+    },
+    {
+      "id": "728b",
+      "titulo": "aedwadwadwa",
+      "categoria": "frontend",
+      "url": "wawdwad",
+      "descricao": "dwadwadwa",
+      "thumb": "https://i.pinimg.com/236x/62/46/4b/62464be5090cfac3793f491d0e54f99a.jpg"
+    },
+    {
+      "id": "6338",
+      "titulo": "dwawd",
+      "categoria": "backend",
+      "url": "dwadwad",
+      "descricao": "dawdwa",
+      "thumb": "https://i.pinimg.com/236x/62/46/4b/62464be5090cfac3793f491d0e54f99a.jpg"
+    },
+    {
+      "id": "dbaf",
+      "titulo": "dwwadaw",
+      "categoria": "backend",
+      "url": "awdwadawd",
+      "descricao": "awdwa",
+      "thumb": "https://i.pinimg.com/236x/62/46/4b/62464be5090cfac3793f491d0e54f99a.jpg"
     }
   ]
 }
