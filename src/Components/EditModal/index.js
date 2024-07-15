@@ -73,10 +73,18 @@ export const EditVideoModal = ({
             required
           />
         </div>
-        <button type="submit">GUARDAR</button>
-        <button type="button" onClick={onRequestClose}>
-          LIMPAR
-        </button>
+        <div className={styles.btns}>
+          <button className={styles.btnAdd} type="submit">
+            GUARDAR
+          </button>
+          <button
+            className={styles.btnReset}
+            type="button"
+            onClick={onRequestClose}
+          >
+            LIMPAR
+          </button>
+        </div>
       </form>
     </Modal>
   );

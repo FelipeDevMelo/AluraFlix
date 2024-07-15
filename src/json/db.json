@@ -3,7 +3,7 @@
     {
       "id": "1",
       "titulo": "O que faz uma desenvolvedora front-end?",
-      "categoria": "backend",
+      "categoria": "frontend",
       "url": "aaaaaa",
       "descricao": "aaaaaaaa",
       "thumb": "https://i.pinimg.com/736x/e0/fa/5b/e0fa5bf4dc6a86f192e038ce6aba5dec.jpg"
@@ -19,7 +19,7 @@
     {
       "id": "4",
       "titulo": "O que faz uma desenvolvedora Back-end? com Juliana Amoasei",
-      "categoria": "mobile",
+      "categoria": "backend",
       "url": "aaaaaa",
       "descricao": "aaaaaaaaaaaa",
       "thumb": "https://i.pinimg.com/236x/57/40/52/57405215501d32c028c7202e311ba391.jpg"
@@ -35,7 +35,7 @@
     {
       "id": "6",
       "titulo": "Qual é a melhor linguagem de programação?",
-      "categoria": "frontend",
+      "categoria": "backend",
       "url": "aaaaaaaa",
       "descricao": "aaaaaaaaa",
       "thumb": "https://i.pinimg.com/236x/84/42/74/8442742359a967ef82458b850fbbe57f.jpg"
@@ -51,7 +51,7 @@
     {
       "id": "8",
       "titulo": "O que é React Native?",
-      "categoria": "backend",
+      "categoria": "mobile",
       "url": "aaaaaaaaa",
       "descricao": "aaaaaaaaaaaaaaa",
       "thumb": "https://i.pinimg.com/736x/14/79/49/14794916ffa7e91b00337a3c4d556110.jpg"
@@ -119,14 +119,6 @@
       "categoria": "backend",
       "url": "dwadwad",
       "descricao": "dawdwa",
-      "thumb": "https://i.pinimg.com/236x/62/46/4b/62464be5090cfac3793f491d0e54f99a.jpg"
-    },
-    {
-      "id": "dbaf",
-      "titulo": "dwwadaw",
-      "categoria": "backend",
-      "url": "awdwadawd",
-      "descricao": "awdwa",
       "thumb": "https://i.pinimg.com/236x/62/46/4b/62464be5090cfac3793f491d0e54f99a.jpg"
     }
   ]
