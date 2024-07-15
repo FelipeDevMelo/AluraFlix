@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import styles from "./AdcionarVideos.module.css";
 const AddVideo = () => {
   const [video, setVideo] = useState({
     titulo: "",
@@ -49,48 +49,70 @@ const AddVideo = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        name="titulo"
-        value={video.titulo}
-        onChange={handleChange}
-        placeholder="Título"
-        required
-      />
-      <input
-        type="text"
-        name="categoria"
-        value={video.categoria}
-        onChange={handleChange}
-        placeholder="Categoria"
-        required
-      />
-      <input
-        type="text"
-        name="url"
-        value={video.url}
-        onChange={handleChange}
-        placeholder="URL"
-        required
-      />
-      <input
-        type="text"
-        name="descricao"
-        value={video.descricao}
-        onChange={handleChange}
-        placeholder="Descrição"
-      />
-      <input
-        type="text"
-        name="thumb"
-        value={video.thumb}
-        onChange={handleChange}
-        placeholder="Thumbnail URL"
-        required
-      />
-      <button type="submit">Add Video</button>
-    </form>
+    <container className={styles.container}>
+      <h1>NOVO VÍDEO</h1>
+      <p>COMPLETE O FORMULÁRIO PARA CRIAR UM NOVO CARD DE VÍDEO.</p>
+      <div className={styles.criarcard}>
+        <h2>Criar card</h2>
+      </div>
+      <form className={styles.form} onSubmit={handleSubmit}>
+        <div>
+          <label for="titulo">Titulo</label>
+          <input
+            type="text"
+            name="titulo"
+            value={video.titulo}
+            onChange={handleChange}
+            placeholder="Título"
+            required
+          />
+        </div>
+        <div>
+          <label for="categoria">Categoria</label>
+          <input
+            type="text"
+            name="categoria"
+            value={video.categoria}
+            onChange={handleChange}
+            placeholder="Categoria"
+            required
+          />
+        </div>
+        <div>
+          <label for="url">URL</label>
+          <input
+            type="text"
+            name="url"
+            value={video.url}
+            onChange={handleChange}
+            placeholder="URL"
+            required
+          />
+        </div>
+        <div>
+          <label for="descricao">Descrição</label>
+          <input
+            type="text"
+            name="descricao"
+            value={video.descricao}
+            onChange={handleChange}
+            placeholder="Descrição"
+          />
+        </div>
+        <div>
+          <label for="thumb">Thumbnail URL</label>
+          <input
+            type="text"
+            name="thumb"
+            value={video.thumb}
+            onChange={handleChange}
+            placeholder="Thumbnail URL"
+            required
+          />
+        </div>
+        <button type="submit">Add Video</button>
+      </form>
+    </container>
   );
 };
 

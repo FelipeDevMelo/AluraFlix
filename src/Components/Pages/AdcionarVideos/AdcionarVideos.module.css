@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.911);
+  color: var(--white);
+  gap: 0.5rem;
+  flex-direction: column;
+  height: 100vh;
+}
+.criarcard {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 75%;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(88, 88, 88, 0.3);
+  border-top: 1px solid rgba(88, 88, 88, 0.3);
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.form input {
+ background-color: transparent;
+  border: 1px solid rgba(88, 88, 88, 0.3);
+  border-radius: 10px;
+  width: 470px;
+  height: 42px;
+  padding: 5px;
+}
