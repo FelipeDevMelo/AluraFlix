@@ -9,14 +9,6 @@
       "thumb": "https://i.pinimg.com/736x/e0/fa/5b/e0fa5bf4dc6a86f192e038ce6aba5dec.jpg"
     },
     {
-      "id": "2",
-      "titulo": "Árvores binárias",
-      "categoria": "frontend",
-      "url:": "https://www.youtube.com/embed/watch?v=NpJVZtgSY4U&list=PL5TJqBvpXQv7ipm2exZbbqwpFZc-TZ80s&index=1",
-      "descricao": "",
-      "thumb": "https://i.pinimg.com/736x/4f/58/93/4f58931ff7c2b0d258495cef483fb7d6.jpg"
-    },
-    {
       "id": "3",
       "titulo": "O que é e o que faz quem trabalha com UX? User Experience e Usabilidade",
       "categoria": "frontend",
@@ -90,43 +82,11 @@
       "thumb": "aaaaaaaaaaaaaaaaaaaaaaaaa"
     },
     {
-      "id": "05e4",
-      "titulo": "aaaaaaaaaaaaaa",
-      "categoria": "backend",
-      "url": "https://www.youtube.com/watch?v=L-iepu3EtyE&list=RDDnGdoEa1tPg&index=4",
-      "descricao": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "thumb": "https://i.pinimg.com/736x/ca/62/49/ca624956badc658d6dd3919f0ca90f3c.jpg"
-    },
-    {
       "id": "a938",
       "titulo": "aaaaaaaaaaaa",
       "categoria": "",
       "url": "https://www.youtube.com/watch?v=L-iepu3EtyE&list=RDDnGdoEa1tPg&index=4",
       "descricao": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "thumb": "https://i.pinimg.com/736x/ca/62/49/ca624956badc658d6dd3919f0ca90f3c.jpg"
-    },
-    {
-      "id": "d3ec",
-      "titulo": "aaaaaaaaaaaaaaaa",
-      "categoria": "mobile",
-      "url": "https://www.youtube.com/watch?v=L-iepu3EtyE&list=RDDnGdoEa1tPg&index=4",
-      "descricao": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "thumb": "https://i.pinimg.com/736x/ca/62/49/ca624956badc658d6dd3919f0ca90f3c.jpg"
-    },
-    {
-      "id": "c01e",
-      "titulo": "aaaaaaaaaaaaaaaa",
-      "categoria": "backend",
-      "url": "aaaaaaaaaaaaaaa",
-      "descricao": "aaaaaaaaaaaaaaaaaaaa",
-      "thumb": "https://i.pinimg.com/736x/ca/62/49/ca624956badc658d6dd3919f0ca90f3c.jpg"
-    },
-    {
-      "id": "d382",
-      "titulo": "aaaaaaaaa",
-      "categoria": "frontend",
-      "url": "aaaaaaaaaaaaaaaaaaaa",
-      "descricao": "aaaaaaaaaaaa",
       "thumb": "https://i.pinimg.com/736x/ca/62/49/ca624956badc658d6dd3919f0ca90f3c.jpg"
     }
   ]

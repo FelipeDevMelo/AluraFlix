@@ -13,6 +13,24 @@ export const SectionCategoria = () => {
         setVideos(dados);
       });
   }, []);
+
+  const handleDelete = async (id) => {
+    try {
+      const response = await fetch(`http://localhost:3000/videos/${id}`, {
+        method: "DELETE",
+      });
+
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+
+      console.log("Video deleted");
+      setVideos(Videos.filter((video) => video.id !== id)); // Remove o vídeo da lista
+    } catch (error) {
+      console.error("There was a problem with the fetch operation:", error);
+    }
+  };
+
   const frontendCategorizados = Videos.filter(
     (video) => video.categoria === "frontend"
   );
@@ -31,7 +49,7 @@ export const SectionCategoria = () => {
         </TituloCategoria>
         <div className={styles.container__Card}>
           {frontendCategorizados.map((video) => {
-            return <Card {...video} key={video.id} />;
+            return <Card {...video} key={video.id} onDelete={handleDelete} />;
           })}
         </div>
       </section>
@@ -41,7 +59,7 @@ export const SectionCategoria = () => {
         </TituloCategoria>
         <div className={styles.container__Card}>
           {backendCategorizados.map((video) => {
-            return <Card {...video} key={video.id} />;
+            return <Card {...video} key={video.id} onDelete={handleDelete} />;
           })}
         </div>
       </section>
@@ -51,7 +69,7 @@ export const SectionCategoria = () => {
         </TituloCategoria>
         <div className={styles.container__Card}>
           {mobileCategorizados.map((video) => {
-            return <Card {...video} key={video.id} />;
+            return <Card {...video} key={video.id} onDelete={handleDelete} />;
           })}
         </div>
       </section>
