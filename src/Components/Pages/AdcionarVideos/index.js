@@ -8,7 +8,15 @@ const AddVideo = () => {
     descricao: "",
     thumb: "",
   });
-
+  const handleReset = () => {
+    setVideo({
+      titulo: "",
+      categoria: "",
+      url: "",
+      descricao: "",
+      thumb: "",
+    });
+  };
   const handleChange = (e) => {
     const { name, value } = e.target;
     setVideo({
@@ -69,14 +77,17 @@ const AddVideo = () => {
         </div>
         <div>
           <label for="categoria">Categoria</label>
-          <input
-            type="text"
-            name="categoria"
+
+          <select
             value={video.categoria}
             onChange={handleChange}
-            placeholder="Categoria"
-            required
-          />
+            id="categoria"
+            name="categoria"
+          >
+            <option value="frontend">Frontend</option>
+            <option value="backend">Backend</option>
+            <option value="mobile">Mobile</option>
+          </select>
         </div>
         <div>
           <label for="url">URL</label>
@@ -90,16 +101,6 @@ const AddVideo = () => {
           />
         </div>
         <div>
-          <label for="descricao">Descrição</label>
-          <input
-            type="text"
-            name="descricao"
-            value={video.descricao}
-            onChange={handleChange}
-            placeholder="Descrição"
-          />
-        </div>
-        <div>
           <label for="thumb">Thumbnail URL</label>
           <input
             type="text"
@@ -110,7 +111,23 @@ const AddVideo = () => {
             required
           />
         </div>
-        <button type="submit">Add Video</button>
+        <div className={styles.textarea}>
+          <label for="descricao">Descrição</label>
+          <textarea
+            type="text"
+            name="descricao"
+            value={video.descricao}
+            onChange={handleChange}
+            placeholder="Descrição"
+          />
+
+          <div className={styles.buttonsDiv}>
+            <button className={styles.btnAdd} type="submit">ADCIONAR VIDEO</button>
+            <button className={styles.btnReset} onClick={handleReset} type="reset">
+              LIMPAR
+            </button>
+          </div>
+        </div>
       </form>
     </container>
   );
