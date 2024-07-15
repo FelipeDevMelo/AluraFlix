@@ -5,19 +5,15 @@
   border-radius: 5px;
 }
 
-.blue {
+.linkAtivo {
   border: 1px solid var(--blue);
   box-shadow: 0 0 1px var(--blue), 0 0 2px var(--blue), 0 0 5px var(--blue),
     0 0 7px var(--blue);
   background-color: black;
   color: var(--blue);
 }
-.blue:hover {
-  box-shadow: 0 0 1px var(--blue), 0 0 2px var(--blue), 0 0 16px var(--blue),
-    0 0 7px var(--blue);
-}
 
-.white {
+.linkNormal {
   background-color: none;
   color: var(--white);
   border: 1px solid var(--white);
